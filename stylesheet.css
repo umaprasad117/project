@@ -1,0 +1,58 @@
+	#p1{
+		background-color: gray;
+		width: 30%;
+		float: left;
+		overflow: hidden;
+		height: 250px;
+		margin-right: 50px;
+	}
+	#p2{
+		background-color: gray;
+		width: 30%;
+		float: left;
+		overflow: hidden;
+		height: 250px;
+		margin-left: 10px;
+		margin-right: 25px;
+	}
+	#p3{
+		background-color: grey;
+		width: 30%;
+		height: 250px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	@media(min-width:768px) and (max-width:991px) {
+		#p1{
+			width: 45%;
+			height: 200px;
+			margin: 10px;
+		}
+		#p2{
+			width: 45%;
+			height: 200px;
+			margin: 10px;
+
+		}
+		#p3{
+			width: 90%;
+			height: 100px;
+			background-color: grey;
+			margin: 0 auto;
+		}
+	}
+	@media(max-width: 767px) {
+		#p1{
+			width: 70%;
+			margin-right: 95px;
+		}
+		#p2{
+			width: 70%;
+			margin: 20px;
+			margin-left: 90px;
+			margin-right: 180px;
+		}
+		#p3{
+			width: 70%;
+		}
+	}
